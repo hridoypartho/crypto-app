@@ -4,7 +4,13 @@ import Img from "../assets/bitcoin.jpeg";
 const Home = () => {
   return (
     <Box bgColor={"blackAlpha.900"} w="full" h={"85vh"}>
-      <Image w={"full"} h="full" objectFit={"contain"} src={Img} />
+      <Image
+        filter={"grayscale(1)"}
+        w={"full"}
+        h="full"
+        objectFit={"contain"}
+        src={Img}
+      />
       <Text
         fontSize={"6xl"}
         textAlign="center"
